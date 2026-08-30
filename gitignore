@@ -1,0 +1,33 @@
+# Credenciales y secretos - NUNCA subir esto
+*.json
+!package.json
+!package-lock.json
+.env
+.env.*
+credentials/
+service_account*.json
+google_credentials*.json
+*token*.json
+*credentials*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
